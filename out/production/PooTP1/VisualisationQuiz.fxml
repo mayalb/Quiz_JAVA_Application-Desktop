@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualisationQuiz">
+   <children>
+      <VBox prefHeight="421.0" prefWidth="223.0" style="-fx-background-color: #8f1c4f;" />
+      <ListView fx:id="listeView2" layoutX="258.0" layoutY="256.0" prefHeight="144.0" prefWidth="327.0" />
+      <ListView fx:id="listeView1" layoutX="258.0" layoutY="14.0" prefHeight="163.0" prefWidth="327.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="423.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ListeApprenantController">
+   <children>
+      <VBox prefHeight="421.0" prefWidth="223.0" style="-fx-background-color: #da0650;" />
+      <Text fill="#da0650" layoutX="301.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La liste des apprenants " wrappingWidth="284.08984375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <ListView fx:id="mlisteView" layoutX="266.0" layoutY="75.0" prefHeight="311.0" prefWidth="327.0" />
+   </children>
+</AnchorPane>

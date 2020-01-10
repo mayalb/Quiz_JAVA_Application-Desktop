@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="478.0" prefWidth="574.0" style="-fx-background-color: #8f1c4f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QuizControlleur">
+   <children>
+      <Label layoutX="215.0" prefHeight="84.0" prefWidth="173.0" text="Quiz" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="57.0" />
+         </font>
+      </Label>
+      <Button fx:id="ajnotion" layoutX="43.0" layoutY="174.0" mnemonicParsing="false" onAction="#ajounotion" prefHeight="48.0" prefWidth="210.0" text="Ajouter Notion" textFill="#da0650">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="affichquiz" layoutX="43.0" layoutY="284.0" mnemonicParsing="false" onAction="#afficherlistquiz" prefHeight="48.0" prefWidth="210.0" text="Afficher Quiz" textFill="#da0650">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="affichquiz1" layoutX="319.0" layoutY="284.0" mnemonicParsing="false" onAction="#affquiz" prefHeight="48.0" prefWidth="210.0" text="Creer Quiz" textFill="#da0650">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="mesNot" layoutX="310.0" layoutY="174.0" mnemonicParsing="false" onAction="#afficherListeNotions" prefHeight="48.0" prefWidth="210.0" text="Mes notions" textFill="#da0650">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

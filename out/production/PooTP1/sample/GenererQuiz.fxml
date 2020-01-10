@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="457.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GenererQuizController">
+   <children>
+      <VBox layoutX="-12.0" layoutY="-4.0" prefHeight="464.0" prefWidth="235.0" style="-fx-background-color: #8f1c4f;" />
+      <Button fx:id="qcm" layoutX="334.0" layoutY="118.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="140.0" text="QCM" textFill="#8a0e33">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="qcu" layoutX="334.0" layoutY="206.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="140.0" text="QCU" textFill="#8a0e33">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="qo" layoutX="334.0" layoutY="286.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="140.0" text="QO" textFill="#8a0e33">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
